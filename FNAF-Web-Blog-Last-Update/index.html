@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- nav bar -->
+    <header class="header">
+        <div class="logo">
+            <img src="FNAF picture/Site-logo.webp" width="45" height="45" class="d-inline-block align-top" alt="logo" >
+            <h1>FNAF LORE</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#Home" class="nav-link text-light fs-4 me-3">Home</a>
+            <a href="#Story" class="nav-link text-light fs-4 me-3">Story</a>
+            <a href="#Charactor" class="nav-link text-light fs-4 me-3">Character</a>
+            <a href="#Contact" class="nav-link text-light fs-4 me-3">Contact</a>
+            <a href="login.html"><div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </a>
+        </nav>
+    </header>
+    <!-- home -->
+    <section class="home-bg">
+        <img src="FNAF picture/fnaf the movie poster.jpg" class="home-bg-img" id="Home">
+        <div class="home-title">     
+                    <h1>Five Night at Freddy's<br> Lore</h1>
+                    <p>This web blog will be talking about<br>the FNAF Storyline</p>
+                    <a href="info.html">
+                      <button class="read-btn">Start Reading</button>
+                    </a>
+        </div>
+    </section>
+    <!-- charecatr -->
+    <section class="container-fluid align-items-center p-1"style="background-color: #1E1E1E;">
+
+       <div class="txt1">
+        <a href="#" id="Charactor">Animatronic Character</a>
+       </div>
+
+      
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="FNAF picture/ch1-fnaf.jpg" ></div>
+          <div class="swiper-slide"><img src="FNAF picture/chr-bonnie.png"></div>
+          <div class="swiper-slide"><img src="FNAF picture/ch-chica.jpg"></div>
+          <div class="swiper-slide"><img src="FNAF picture/ch-foxy.jpg"></div>
+          <div class="swiper-slide"><img src="FNAF picture/ch-check out more.jpg"></div>
+        </div>
+        <div class="swiper-button-next" style="color: black; height:70px; width:70px"></div>
+        <div class="swiper-button-prev" style="color: black; height:70px; width:70px"></div>
+      </div>
+      
+      <div class="txt2">
+        <a href="#" id="Story">Story</a>
+       </div>
+    
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </section> 
+    
+    <!--Story -->
+    <div class="story-box">
+            <div class="box1">
+              <a href="info.html"><img src="FNAF picture/story-ch1-fnaf.jpg">
+            </a></div>
+            <div class="box2">
+              <img src="FNAF picture/story-ch2-fnaf.jpg">
+            </div>
+            <div class="box3">
+              <img src="FNAF picture/story-ch3-fnaf.jpg">
+            </div>
+            <div class="box4">
+              <img src="FNAF picture/story-ch4-fnaf.jpg">
+            </div>
+            <div class="box5">
+                <img src="FNAF picture/story-ch5-fnaf.jpg">
+              </div>
+       </div>  
+
+
+       <!-- contact -->
+       <footer>
+        <div class="contact">
+            <div class="txt3">
+               <a href="#" id="Contact">Contact</a>
+            </div>
+            <div class="info">
+                <div class="logo">
+                    <img src="icon/fb.svg" alt="">
+                    <p>The FNAF  Lore</p>
+                </div>
+                <div class="logo">
+                    <img src="icon/gg.svg" alt="">
+                   <p> the FNAFlore@gmai.com</p>
+                </div>
+                <div class="logo">
+                    <img src="icon/yt.svg" alt="">
+                    <p>The FNAF Lore</p>
+                </div>
+            </div>
+
+        </div>
+       </footer>
+       
+
+
+</body>
+</html>

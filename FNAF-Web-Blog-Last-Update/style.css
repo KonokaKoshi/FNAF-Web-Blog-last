@@ -1,0 +1,270 @@
+/* font-family: 'Gill Sans'; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:75px ;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(42, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    display: flex;
+}
+
+.logo h1{
+    padding-left: 1rem;
+    font-size: 36;
+    color: white;
+}
+.hamburger {
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.home-bg {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .home-bg-img {
+    width: 100%;
+    height: 90vh;
+    display: block;
+  }
+  .home-title {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+    margin-top: 70px;
+    margin-left: 10%;
+  }
+  .home-title h1{
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .home-title p{
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .read-btn {
+    width: 451px;
+    height: 71px;
+    color: white;
+    border: none;
+    background-color: rgba(142, 96, 158, 1);
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 900;
+    border-radius: 20px;
+    box-shadow: 0;
+  }
+
+
+ /* swiper sec */
+.txt1{
+  text-align: center;
+  height: 85px;
+  width: 780px;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Gill Sans';
+  background-color:#616161 ;
+  margin: 50px;
+
+}
+.txt1 a{
+  font-size: 64px;
+  
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.txt2{
+  text-align: center;
+  height: 90px;
+  width: 250px;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Gill Sans';
+  background-color:#616161 ;
+  margin: 50px;
+
+}
+.txt2 a{
+  font-size: 64px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.swiper-button-next{
+     background-color:#957697 ;
+     border-radius: 50%;
+  }
+.swiper-button-prev{
+    background-color:#957697 ;
+     border-radius: 50%;
+  }
+ /* Story */
+
+ .story-box {
+  background-image: url('FNAF picture/fnaf-help-wanted.jpg');
+  overflow: auto;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  padding: 50px;
+  background-color: rgba(55, 55, 55, 1);
+
+}
+.box2{
+  margin: 12rem 0 10rem 57rem;
+}
+.box4{
+  margin: 12rem 0 10rem 57rem;
+}
+
+/* constent */
+.contact {
+  background-image: url("FNAF picture/FNAF-gang.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px; 
+  overflow: visible;
+  background-color: transparent;
+  width: 100%;
+  height: 700px; 
+  margin: auto; 
+}
+.txt3{
+  text-align: center;
+  height: 70px;
+  width: 280px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Gill Sans';
+  background-color:#616161 ;
+  margin: 50px;
+}
+.txt3 a{
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.info{
+ padding-right: 3rem;
+}
+.logo{
+  display: flex;
+}
+.logo p{
+  font-size: 48px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+/* info body */
+.body{
+  background-color: #373737;
+  height: 130vh;
+  width: 100%;
+  margin-top: 75px;
+}
+.btn-size{
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+.back-btn{
+  height: 68px;
+  width: 170px;
+  background-color:#D9D9D9;
+  border-radius: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.story-box-picture {
+  background-image: url('FNAF picture/fnaf-help-wanted.jpg');
+  overflow: auto;
+  width: 100%;
+  height: 3750px;
+  background-size: cover;
+  
+  padding: 50px;
+  background-color: rgba(55, 55, 55, 1);
+
+}
+
+/* Info Comment */
+
+.info-comment {
+  background-color: rgba(217, 217, 217, 1);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.comment-text {
+  margin-left: 30px;
+  width: 2000px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+.profile-pic {
+  width: 46px;
+  vertical-align: middle;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+.post-but {
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50px;
+  vertical-align: middle;
+  padding-left: 3px;
+}
